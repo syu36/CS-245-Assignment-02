@@ -14,8 +14,8 @@ public class HybridSort {
 	 * @param right the right index of the subarray
 	 */
 	public void hybridSort(double []arr, int left, int right) {
-		// Use 10 as changing point for sort algorithm
-		if (right - left > 10) {
+		// Use 50 as changing point for sort algorithm
+		if (right - left > 50) {
 			quickSort(arr, left, right);
 		} else {
 			quadraticSort(arr, left, right);
