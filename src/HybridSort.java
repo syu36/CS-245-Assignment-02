@@ -1,6 +1,12 @@
 import java.util.Random;
 
+/**
+ *
+ * Sorts the data in an array using a hybrid of two sorts, a quick sort and an insertion sort.
+ *
+ */
 public class HybridSort {
+
 	/**
 	 * Performs a hybrid sort. Uses quick sort for large arrays and insertion for small arrays.
 	 * @param arr the array
